@@ -1,0 +1,24 @@
+This is a level meter for the Enlightened sound daemon.
+
+It shows the current output levels for left and right stereo channels, using
+what I consider to be an attractive display.
+
+It's under the MIT license, which basically says you can do what you like with
+it, but please try to avoid claiming you made it or suing me if it blows
+up your computer.
+
+I probably won't add any features, but I'll fix bugs if you find any.
+
+Hint: Use the right mouse button to pop up the configuration menu.
+
+Compiling:
+
+> qmake
+> make
+> cp esoundlevelmeter /somewhere/in/path
+
+Running:
+
+> esoundlevelmeter
+
+Rik Hemsley (rikkus) <rik@kde.org>
